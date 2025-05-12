@@ -1,9 +1,27 @@
-# About
-This is the demo site for [Fuwari](https://github.com/saicaca/fuwari).
+# AI LOGSについて
 
-::github{repo="saicaca/fuwari"}
+AI Logsは、AIに関する情報を集約し発信するブログサイトです。
 
-> ### Sources of images used in this site
-> - [Unsplash](https://unsplash.com/)
-> - [星と少女](https://www.pixiv.net/artworks/108916539) by [Stella](https://www.pixiv.net/users/93273965)
-> - [Rabbit - v1.4 Showcase](https://civitai.com/posts/586908) by [Rabbit_YourMajesty](https://civitai.com/user/Rabbit_YourMajesty)
+## このサイトが目指すもの
+
+日々進化を続けるAIの世界は広大で、新しい技術やニュースが絶え間なく生まれています。AI Logsは、そんなAIに関する興味深い情報や重要な動向をキャッチアップし、分かりやすく整理して発信することで、AI技術に触れるすべての方にとって有益な情報源となることを目指しています。
+
+## 主な発信テーマ
+
+*   **AI技術の深掘り**: 特定のAI技術（機械学習、深層学習、自然言語処理、画像認識など）に関する解説や、最新の研究動向、実践的な活用方法などを紹介します。
+*   **AI業界ニュース・トレンド**: 週ごとのAI関連の主要な出来事や、注目すべきニュース、技術トレンドをピックアップし、その背景や影響を考察します。
+*   **フロントエンド技術**: AIを支えるウェブ技術も重要です。時には、サイト構築やUI/UXに関連するフロントエンド技術についての知見やTIPSも共有します。
+
+## 読者の皆様へ
+
+AI Logsを通じて、AI技術の面白さや可能性を感じていただければ幸いです。ご意見、ご感想、または「こんな情報が知りたい」といったリクエストがありましたら、お気軽にお寄せください。
+
+お気軽にご意見・ご感想をお寄せください。
+
+:::tip[X]
+[https://x.com/mei_999_](https://x.com/mei_999_)
+:::
+
+:::tip[GitHub]
+[https://github.com/maigo999](https://github.com/maigo999)
+:::
