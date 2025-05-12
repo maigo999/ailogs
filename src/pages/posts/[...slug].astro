@@ -170,7 +170,7 @@ const jsonLd = {
         )
       }
       <div class="share-box onload-animation">
-        <p class="text-sm font-bold">Share this post</p>
+        <p class="text-sm font-bold">Share this page</p>
         <SocialShare
           buttons={BUTTONS}
           description={entry.data.description}
@@ -182,6 +182,8 @@ const jsonLd = {
               padding:20px 0px;
               margin-top: 100px;
               border-top: 1px solid var(--line-divider);
+              background: var(--card-bg);
+              color: var(--btn-content);
             }
             .astro-social-share {
               padding:0px;
@@ -201,6 +203,16 @@ const jsonLd = {
             }
             .astro-social-share svg {
               height: 20px;
+            }
+            .astro-social-share svg path {
+              fill: var(--btn-content);
+              transition: fill 0.2s, opacity 0.2s;
+            }
+            .astro-social-share a:hover svg path {
+              opacity: 0.5;
+            }
+            .dark .astro-social-share svg path {
+              fill: var(--primary);
             }
           </style>
         </slot>

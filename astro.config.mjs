@@ -11,6 +11,7 @@ import rehypeKatex from "rehype-katex";
 import rehypeSlug from "rehype-slug";
 import remarkDirective from "remark-directive"; /* Handle directives */
 import remarkGithubAdmonitionsToDirectives from "remark-github-admonitions-to-directives";
+import remarkLinkCard from "remark-link-card";
 import remarkMath from "remark-math";
 import remarkSectionize from "remark-sectionize";
 import starlightLlmsTxt from "starlight-llms-txt";
@@ -63,6 +64,13 @@ export default defineConfig({
 			remarkDirective,
 			remarkSectionize,
 			parseDirectiveNode,
+			[
+				remarkLinkCard,
+				{
+					cache: true,
+					shortenUrl: true,
+				},
+			],
 		],
 		rehypePlugins: [
 			rehypeKatex,

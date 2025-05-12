@@ -59,3 +59,8 @@ draft: true
     *   原文タイトル: Weave (YC W25) is hiring a founding engineer
     *   URL: [https://www.ycombinator.com/companies/weave-3/jobs](https://www.ycombinator.com/companies/weave-3/jobs)
     *   概要: Y CombinatorのスタートアップであるWeaveが、創設エンジニアを募集しています。Weaveは、エンジニアリングチームの生産性を向上させるためのソフトウェアを開発しています。
+
+
+https://github.com/maigo999
+
+https://sur33.com/posts/remark-link-card-with-astro/
