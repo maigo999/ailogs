@@ -1,5 +1,5 @@
 name = "ailogs"
 compatibility_date = "2025-05-13"
 
-[site]
-bucket = "./dist" 
+[assets]
+bucket = "./dist"
