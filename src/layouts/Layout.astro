@@ -51,14 +51,10 @@ banner = siteConfig.banner.src;
 let effectiveOgImage: string;
 const site = (typeof Astro.site === 'string' ? Astro.site : Astro.site?.toString()) || 'https://ailogs.dev';
 if (slug) {
-  effectiveOgImage = url(`https://ailogs.dev/og/${slug}.png`); // Use the existing url utility
+  effectiveOgImage = `${site}/og/${slug}.png`;
 } else {
-  // bannerがhttpから始まる場合はそのまま、そうでなければAstro.siteを先頭につけて絶対URLにする
-  effectiveOgImage = banner.startsWith('http')
-    ? banner
-    : `${site.replace(/\/$/, '')}/${banner.replace(/^\/?/, '')}`;
+  effectiveOgImage = `${site}/og/banner.webp`;
 }
-
 const enableBanner = siteConfig.banner.enable;
 
 let pageTitle: string;
