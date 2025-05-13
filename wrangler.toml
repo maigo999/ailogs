@@ -2,4 +2,4 @@ name = "ailogs"
 compatibility_date = "2025-05-13"
 
 [assets]
-bucket = "./dist"
+directory = "./dist"
