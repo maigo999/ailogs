@@ -51,9 +51,9 @@ banner = siteConfig.banner.src;
 let effectiveOgImage: string;
 const site = (typeof Astro.site === 'string' ? Astro.site : Astro.site?.toString()) || 'https://ailogs.dev';
 if (slug) {
-  effectiveOgImage = `${site}/og/${slug}.png`;
+  effectiveOgImage = `${site}og/${slug}.png`;
 } else {
-  effectiveOgImage = `${site}/og/banner.webp`;
+  effectiveOgImage = `${site}og/banner.webp`;
 }
 const enableBanner = siteConfig.banner.enable;
 
