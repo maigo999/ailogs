@@ -64,13 +64,6 @@ export default defineConfig({
 			remarkDirective,
 			remarkSectionize,
 			parseDirectiveNode,
-			[
-				remarkLinkCard,
-				{
-					cache: true,
-					shortenUrl: true,
-				},
-			],
 		],
 		rehypePlugins: [
 			rehypeKatex,
