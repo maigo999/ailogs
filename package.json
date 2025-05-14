@@ -34,6 +34,7 @@
         "@swup/astro": "^1.6.0",
         "@tailwindcss/typography": "^0.5.16",
         "astro": "5.7.11",
+        "astro-google-analytics": "^1.0.3",
         "astro-icon": "^1.1.5",
         "astro-social-share": "^2.2.0",
         "canvaskit-wasm": "^0.40.0",

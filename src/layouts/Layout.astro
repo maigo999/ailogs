@@ -21,6 +21,7 @@ import { defaultFavicons } from "../constants/icon";
 import type { Favicon } from "../types/config";
 import { url, pathsEqual } from "../utils/url-utils";
 import "katex/dist/katex.css";
+import { GoogleAnalytics } from 'astro-google-analytics';
 
 interface Props {
 	title?: string;
@@ -121,6 +122,7 @@ const bannerOffset =
 				  sizes={favicon.sizes}
 				  media={favicon.theme && `(prefers-color-scheme: ${favicon.theme})`}
 			/>
+			<GoogleAnalytics id="G-1YRVXXL3B0" />
 		))}
 
 		<!-- Set the theme before the page is rendered to avoid a flash -->
