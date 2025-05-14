@@ -98,15 +98,15 @@ export async function GET({ params, props }: AstroFileProps) {
 	try {
 		const imageHtml = html`
       <div
-        style="height: 100%; width: 100%; display: flex; flex-direction: column; align-items: flex-start; justify-content: flex-start; background: #fcf8ff ; color: #222; padding: 60px; font-family: 'Noto Sans JP'; border: 40px solid #d0901e;"
+        style="height: 100%; width: 100%; display: flex; flex-direction: column; align-items: flex-start; justify-content: flex-start; background: #fcf8ff ; color: #222; padding: 60px; font-family: 'Noto Sans JP'; border: 40px solid #74492B;"
       >
-        <div style="font-size: 70px; font-weight: bold; margin-bottom: 30px; text-align: left; color: #504538;">
+        <div style="font-size: 70px; font-weight: bold; margin-bottom: 30px; text-align: left; color: #2f0800;">
           ${page.title}
         </div>
-        <div style="font-size: 40px; font-weight: normal; color: #b7a99a; text-align: left;">
+        <div style="font-size: 40px; font-weight: normal; color: #320e00; text-align: left;">
           ${page.description}
         </div>
-        <div style="position: absolute; bottom: 30px; right: 60px; font-size: 40px; color: #b7a99a;">
+        <div style="position: absolute; bottom: 30px; right: 60px; font-size: 40px; color: #320e00;">
           ailogs.dev
         </div>
       </div>

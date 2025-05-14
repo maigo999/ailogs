@@ -53,7 +53,7 @@ const site = (typeof Astro.site === 'string' ? Astro.site : Astro.site?.toString
 if (slug) {
   effectiveOgImage = `${site}og/${slug}.png`;
 } else {
-  effectiveOgImage = `${site}og/banner.webp`;
+  effectiveOgImage = `${site}og/ogp.png`;
 }
 const enableBanner = siteConfig.banner.enable;
 
