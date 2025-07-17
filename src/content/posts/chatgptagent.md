@@ -2,7 +2,7 @@
 title: ChatGPT Agentとは？新時代のエージェントが来た！
 published: 2025-07-18
 updated: 2025-07-18
-description: "ChatGPT Agentとは？新時代のエージェントが来た！"
+description: "OpenAIが発表した「ChatGPT Agent」について紹介します。"
 image: "./chatgptagent.jpg"
 tags: [ChatGPT, Agent, AI]
 category: "AI"
