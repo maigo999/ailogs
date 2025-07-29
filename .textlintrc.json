@@ -1,0 +1,34 @@
+{
+  "plugins": [
+    "@textlint/textlint-plugin-markdown",
+    "@textlint/textlint-plugin-text"
+  ],
+  "filters": {},
+  "rules": {
+    "preset-ja-technical-writing": {
+      "sentence-length": {
+        "max": 120
+      },
+      "no-exclamation-question-mark": {
+        "allowHalfWidthExclamation": true,
+        "allowFullWidthExclamation": true,
+        "allowHalfWidthQuestion": true,
+        "allowFullWidthQuestion": true
+      },
+      "ja-no-mixed-period": {
+        "allowPeriodMarks": ["。", "!!", "！！"]
+      }
+    },
+    "@textlint-ja/preset-ai-writing": {
+      "no-ai-list-formatting": true,
+      "no-ai-hype-expressions": true,
+      "no-ai-emphasis-patterns": {
+        "disableInfoPatterns": true
+      },
+      "no-ai-colon-continuation": true,
+      "ai-tech-writing-guideline": {
+        "severity": "info"
+      }
+    }
+  }
+}
